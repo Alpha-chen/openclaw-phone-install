@@ -4,6 +4,21 @@
 
 ## ⚡ 快速开始
 
+### 第一步：下载 Termux
+
+如果你还没有安装 Termux，请先下载：
+
+**GitHub 最新版本:**
+- [Termux APK (通用)](https://github.com/termux/termux-app/releases/latest)
+- 或直接下载: [termux-app_v0.118.3+github-debug_universal.apk](https://github.com/termux/termux-app/releases/download/v0.118.3/termux-app_v0.118.3+github-debug_universal.apk)
+
+**安装步骤:**
+1. 下载上面的 APK 文件
+2. 点击安装 Termux
+3. 打开 Termux
+
+### 第二步：运行安装脚本
+
 在 **Termux** 中运行以下命令：
 
 ```bash
