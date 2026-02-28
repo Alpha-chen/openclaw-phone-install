@@ -87,7 +87,7 @@ openclaw gateway --verbose
 
 ## 📖 详细教程
 
-[OpenClaw 手机版部署教程 (PDF)](https://github.com/Alpha-chen/openclaw-phone-install/raw/master/)
+[OpenClaw 手机版部署教程 (PDF)](./OpenClaw-手机版部署教程.pdf)
 
 ## ⚠️ 注意事项
 
