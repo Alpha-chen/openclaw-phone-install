@@ -61,25 +61,25 @@ proot-distro install ubuntu
 # 第3步：安装基础软件
 # ============================================
 echo -e "${GREEN}[3/6] 安装基础软件...${NC}"
-proot-distro login ubuntu --bash -c "apt update && apt install -y curl git build-essential"
+proot-distro login ubuntu ---bash -c "apt update && apt install -y curl git build-essential"
 
 # ============================================
 # 第4步：安装 Node.js
 # ============================================
 echo -e "${GREEN}[4/6] 安装Node.js...${NC}"
-proot-distro login ubuntu --bash -c "curl -fsSL https://deb.nodesource.com/setup_22.x | bash && apt install -y nodejs"
+proot-distro login ubuntu ---bash -c "curl -fsSL https://deb.nodesource.com/setup_22.x | bash && apt install -y nodejs"
 
 # ============================================
 # 第5步：安装 OpenClaw
 # ============================================
 echo -e "${GREEN}[5/6] 安装OpenClaw...${NC}"
-proot-distro login ubuntu --bash -c "npm install -g openclaw@latest"
+proot-distro login ubuntu ---bash -c "npm install -g openclaw@latest"
 
 # ============================================
 # 第6步：配置防杀停
 # ============================================
 echo -e "${GREEN}[6/6] 配置防杀停...${NC}"
-proot-distro login ubuntu --bash -c 'cat > /root/hijack.js << EOF
+proot-distro login ubuntu ---bash -c 'cat > /root/hijack.js << EOF
 const os = require("os");
 os.networkInterfaces = () => ({});
 EOF
